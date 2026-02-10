@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Paper Digest',
   description: '每日 ArXiv Agent Memory 论文速览',
+  base: '/arxiv_paper_digest/',
   
   themeConfig: {
     nav: [
