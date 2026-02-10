@@ -2,15 +2,16 @@
 
 ---
 
-## [1] BudgetMem: Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory
+```
+[1] BudgetMem: Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory
+作者：Haozhen Zhang, Haodong Yue, Tao Feng et al. | 第一单位：清华大学等
+链接：https://arxiv.org/abs/2602.06025
 
-**作者：** Haozhen Zhang, Haodong Yue, Tao Feng et al.  
-**第一单位：** 清华大学等  
-**链接：** https://arxiv.org/abs/2602.06025
-
-### 简单介绍
-
-针对现有 agent memory 系统依赖离线、query-agnostic 内存构建导致的效率低下问题，提出 BudgetMem 框架，通过三层预算路由（Low/Mid/High）实现显式的 query-aware 性能-成本控制，在 LoCoMo、LongMemEval 和 HotpotQA 基准上超越强基线。
+简单介绍：
+针对现有 agent memory 系统依赖离线、query-agnostic 内存构建导致的效率低下问题，
+提出 BudgetMem 框架，通过三层预算路由（Low/Mid/High）实现显式的 query-aware 
+性能-成本控制，在 LoCoMo、LongMemEval 和 HotpotQA 基准上超越强基线。
+```
 
 <details><summary>详细总结</summary>
 
@@ -36,15 +37,18 @@
 
 ---
 
-## [2] Learning to Share (LTS): Selective Memory for Efficient Parallel Agentic Systems
+```
+[2] Learning to Share (LTS): Selective Memory for Efficient Parallel Agentic Systems
+作者：Joseph Fioresi, Parth Parag Kulkarni, Ashmal Vayani et al. 
+第一单位：University of Central Florida
+链接：https://arxiv.org/abs/2602.05965
 
-**作者：** Joseph Fioresi, Parth Parag Kulkarni, Ashmal Vayani et al.  
-**第一单位：** University of Central Florida  
-**链接：** https://arxiv.org/abs/2602.05965
-
-### 简单介绍
-
-针对并行 agentic 系统中多团队独立推理导致的大量重复计算问题，提出 Learning to Share (LTS) 框架，通过学习的选择性共享 memory 机制实现跨团队信息复用，在 AssistantBench 和 GAIA 基准上显著降低运行时间同时保持或提升任务性能。
+简单介绍：
+针对并行 agentic 系统中多团队独立推理导致的大量重复计算问题，
+提出 Learning to Share (LTS) 框架，通过学习的选择性共享 memory 
+机制实现跨团队信息复用，在 AssistantBench 和 GAIA 基准上显著降低
+运行时间同时保持或提升任务性能。
+```
 
 <details><summary>详细总结</summary>
 
@@ -70,15 +74,18 @@
 
 ---
 
-## [3] Graph-based Agent Memory: Taxonomy, Techniques, and Applications
+```
+[3] Graph-based Agent Memory: Taxonomy, Techniques, and Applications
+作者：Chang Yang, Chuang Zhou, Yilin Xiao et al. 
+第一单位：厦门大学、香港理工大学等
+链接：https://arxiv.org/abs/2602.05665
 
-**作者：** Chang Yang, Chuang Zhou, Yilin Xiao et al.  
-**第一单位：** 厦门大学、香港理工大学等  
-**链接：** https://arxiv.org/abs/2602.05665
-
-### 简单介绍
-
-首篇从 graph-based 视角系统性综述 agent memory 的论文，提出完整的 taxonomy（短期 vs 长期、知识 vs 经验、非结构 vs 结构），覆盖 memory 生命周期的关键技术（提取、存储、检索、演化），并总结了开源库、benchmarks 及未来研究方向。
+简单介绍：
+首篇从 graph-based 视角系统性综述 agent memory 的论文，
+提出完整的 taxonomy（短期 vs 长期、知识 vs 经验、非结构 vs 结构），
+覆盖 memory 生命周期的关键技术（提取、存储、检索、演化），
+并总结了开源库、benchmarks 及未来研究方向。
+```
 
 <details><summary>详细总结</summary>
 
@@ -109,14 +116,16 @@
 
 ---
 
-## [4] UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents
+```
+[4] UI-Mem: Self-Evolving Experience Memory for Online RL in Mobile GUI Agents
+作者：Han Xiao, Guozhi Wang, Hao Wang et al. 
+链接：https://arxiv.org/abs/2602.05832
 
-**作者：** Han Xiao, Guozhi Wang, Hao Wang et al.  
-**链接：** https://arxiv.org/abs/2602.05832
-
-### 简单介绍
-
-针对在线 RL 在 GUI agent 中的信用分配效率低和跨任务重复错误问题，提出 UI-Mem 框架，引入层次化经验记忆积累结构化知识（工作流、子任务技能、失败模式），支持跨任务和跨应用迁移，通过 Stratified Group Sampling 和 Self-Evolving Loop 实现 memory 与策略的持续对齐。
+简单介绍：
+针对在线 RL 在 GUI agent 中的信用分配效率低和跨任务重复错误问题，
+提出 UI-Mem 框架，引入层次化经验记忆积累结构化知识
+（工作流、子任务技能、失败模式），支持跨任务和跨应用迁移。
+```
 
 <details><summary>详细总结</summary>
 
@@ -145,15 +154,18 @@
 
 ---
 
-## [5] InfMem: Learning System-2 Memory Control for Long-Context Agent
+```
+[5] InfMem: Learning System-2 Memory Control for Long-Context Agent
+作者：Xinyu Wang, Mingze Li, Peng Lu et al. 
+第一单位：McGill University
+链接：https://arxiv.org/abs/2602.02704
 
-**作者：** Xinyu Wang, Mingze Li, Peng Lu et al.  
-**第一单位：** McGill University  
-**链接：** https://arxiv.org/abs/2602.02704
-
-### 简单介绍
-
-针对超长文档（32k-1M tokens）中稀疏证据的多跳推理问题，提出 InfMem 控制中心 agent，通过 PreThink-Retrieve-Write 协议实现 System-2 风格的主动记忆管理，在保持有界内存的同时显著提升推理准确率并降低推理成本。
+简单介绍：
+针对超长文档（32k-1M tokens）中稀疏证据的多跳推理问题，
+提出 InfMem 控制中心 agent，通过 PreThink-Retrieve-Write 协议
+实现 System-2 风格的主动记忆管理，在保持有界内存的同时
+显著提升推理准确率并降低推理成本。
+```
 
 <details><summary>详细总结</summary>
 
@@ -181,14 +193,17 @@
 
 ---
 
-## [6] Self-Consolidation for Self-Evolving Agents
+```
+[6] Self-Consolidation for Self-Evolving Agents
+作者：Hongzhuo Yu, Fei Zhu, Guo-Sen Xie et al. 
+链接：https://arxiv.org/abs/2602.01966
 
-**作者：** Hongzhuo Yu, Fei Zhu, Guo-Sen Xie et al.  
-**链接：** https://arxiv.org/abs/2602.01966
-
-### 简单介绍
-
-针对现有 agent 系统作为静态系统缺乏终身交互进化能力的问题，提出自进化框架，引入对比反思策略总结错误模式和可复用洞察，通过自巩固机制将非参数化文本经验蒸馏为紧凑可学习参数，实现 agent 的长期进化。
+简单介绍：
+针对现有 agent 系统作为静态系统缺乏终身交互进化能力的问题，
+提出自进化框架，引入对比反思策略总结错误模式和可复用洞察，
+通过自巩固机制将非参数化文本经验蒸馏为紧凑可学习参数，
+实现 agent 的长期进化。
+```
 
 <details><summary>详细总结</summary>
 
