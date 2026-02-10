@@ -12,13 +12,13 @@
 
 ---
 
-```
+
 [1] BudgetMem: Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory
 作者：Haozhen Zhang, Haodong Yue, Tao Feng et al. | 第一单位：清华大学等
 链接：https://arxiv.org/abs/2602.06025
 
 简单介绍：针对现有 agent memory 系统依赖离线、query-agnostic 内存构建导致的效率低下问题，提出 BudgetMem 框架，通过三层预算路由（Low/Mid/High）实现显式的 query-aware 性能-成本控制，在 LoCoMo、LongMemEval 和 HotpotQA 基准上超越强基线。
-```
+
 
 <details><summary>详细总结</summary>
 
@@ -44,13 +44,13 @@
 
 ---
 
-```
+
 [2] Learning to Share (LTS): Selective Memory for Efficient Parallel Agentic Systems
 作者：Joseph Fioresi, Parth Parag Kulkarni, Ashmal Vayani et al. | 第一单位：University of Central Florida
 链接：https://arxiv.org/abs/2602.05965
 
 简单介绍：针对并行 agentic 系统中多团队独立推理导致的大量重复计算问题，提出 Learning to Share (LTS) 框架，通过学习的选择性共享 memory 机制实现跨团队信息复用，在 AssistantBench 和 GAIA 基准上显著降低运行时间同时保持或提升任务性能。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -75,13 +75,13 @@
 
 ---
 
-```
+
 [3] Graph-based Agent Memory: Taxonomy, Techniques, and Applications
 作者：Chang Yang, Chuang Zhou, Yilin Xiao et al. | 第一单位：厦门大学、香港理工大学等
 链接：https://arxiv.org/abs/2602.05665
 
 简单介绍：首篇从 graph-based 视角系统性综述 agent memory 的论文，提出完整的 taxonomy（短期 vs 长期、知识 vs 经验、非结构 vs 结构），覆盖 memory 生命周期的关键技术（提取、存储、检索、演化），并总结了开源库、benchmarks 及未来研究方向。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -111,13 +111,13 @@
 
 ---
 
-```
+
 [4] UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents
 作者：Han Xiao, Guozhi Wang, Hao Wang et al. | 第一单位：未明确
 链接：https://arxiv.org/abs/2602.05832
 
 简单介绍：针对在线 RL 在 GUI agent 中的信用分配效率低和跨任务重复错误问题，提出 UI-Mem 框架，引入层次化经验记忆积累结构化知识（工作流、子任务技能、失败模式），支持跨任务和跨应用迁移，通过 Stratified Group Sampling 和 Self-Evolving Loop 实现 memory 与策略的持续对齐。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -145,13 +145,13 @@
 
 ---
 
-```
+
 [5] InfMem: Learning System-2 Memory Control for Long-Context Agent
 作者：Xinyu Wang, Mingze Li, Peng Lu et al. | 第一单位：McGill University
 链接：https://arxiv.org/abs/2602.02704
 
 简单介绍：针对超长文档（32k-1M tokens）中稀疏证据的多跳推理问题，提出 InfMem 控制中心 agent，通过 PreThink-Retrieve-Write 协议实现 System-2 风格的主动记忆管理，在保持有界内存的同时显著提升推理准确率并降低推理成本。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -178,13 +178,13 @@
 
 ---
 
-```
+
 [6] Self-Consolidation for Self-Evolving Agents
 作者：Hongzhuo Yu, Fei Zhu, Guo-Sen Xie et al. | 第一单位：未明确
 链接：https://arxiv.org/abs/2602.01966
 
 简单介绍：针对现有 agent 系统作为静态系统缺乏终身交互进化能力的问题，提出自进化框架，引入对比反思策略总结错误模式和可复用洞察，通过自巩固机制将非参数化文本经验蒸馏为紧凑可学习参数，实现 agent 的长期进化。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -217,13 +217,13 @@
 
 ---
 
-```
+
 [7] Table-as-Search (TaS): Formulate Long-Horizon Agentic Information Seeking as Table Completion
 作者：Tian Lan, Felix Henry, Bin Zhu et al. | 第一单位：Alibaba International Digital Commerce
 链接：https://arxiv.org/abs/2602.06724
 
 简单介绍：针对长程信息搜索中状态追踪困难的问题，提出 Table-as-Search 框架，将 InfoSeeking 任务重构为表格补全任务，通过结构化表模式管理搜索状态，统一 Deep Search、Wide Search 和 DeepWide Search，在长程 InfoSeeking 中展示出优越的鲁棒性、效率和可扩展性。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -252,13 +252,13 @@
 
 ---
 
-```
+
 [8] AgentCPM-Explore: Realizing Long-Horizon Deep Exploration for Edge-Scale Agents
 作者：Haotian Chen, Xin Cong, Shengda Fan et al. | 第一单位：清华大学等
 链接：https://arxiv.org/abs/2602.06485
 
 简单介绍：首个针对 4B 参数规模边缘 agent 模型的系统性研究，识别出阻碍边缘模型性能的三大瓶颈（SFT 灾难性遗忘、RL 奖励噪声敏感、长上下文冗余信息），提出 holistic 训练框架（参数空间模型融合、奖励信号去噪、上下文信息精炼），在 GAIA 文本任务上达到 97.09% 准确率，匹配或超越 8B 模型。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -283,13 +283,13 @@
 
 ---
 
-```
+
 [9] OdysseyArena: Benchmarking LLMs for Long-Horizon, Active and Inductive Interactions
 作者：Fangzhi Xu, Hang Yan, Qiushi Sun et al. | 第一单位：复旦大学等
 链接：https://arxiv.org/abs/2602.05843
 
 简单介绍：现有评估主要采用演绎范式，忽略了 agent 从经验中自主发现潜在转移规律的归纳能力。OdysseyArena 重新聚焦于长程、主动、归纳交互，形式化并实例化四个原语，提供 120 个标准化任务（OdysseyArena-Lite）和极端交互场景（>200步，OdysseyArena-Challenge），揭示即使前沿模型在归纳场景中也存在缺陷。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -318,13 +318,13 @@
 
 ---
 
-```
+
 [10] ProAct: Agentic Lookahead in Interactive Environments
 作者：Yangbin Yu, Mingyu Yang, Junyou Li et al. | 第一单位：未明确
 链接：https://arxiv.org/abs/2602.05327
 
 简单介绍：针对 LLM agents 在长程规划中的复合错误问题，提出 ProAct 框架，通过两阶段训练范式使 agent 内化准确的前瞻推理。Grounded LookAhead Distillation (GLAD) 将环境搜索轨迹压缩为简洁的因果推理链，Monte-Carlo Critic (MC-Critic) 通过轻量级环境 rollout 校准价值估计，4B 模型在 2048 和 Sokoban 上超越所有开源基线并匹敌 SOTA 闭源模型。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -354,13 +354,13 @@
 
 ---
 
-```
+
 [11] Empirical-MCTS: Continuous Agent Evolution via Dual-Experience Monte Carlo Tree Search
 作者：Hao Lu, Haoyuan Huang, Yulin Zhou et al. | 第一单位：未明确
 链接：https://arxiv.org/abs/2602.04248
 
 简单介绍：针对现有 MCTS 方法无状态、丢弃成功推理模式的问题，提出 Empirical-MCTS 双循环框架，通过 Pairwise-Experience-Evolutionary Meta-Prompting (PE-EMP) 和 Memory Optimization Agent 实现局部探索与全局 memory 优化的统一，在 AIME25、ARC-AGI-2 和 MathArena Apex 上显著超越无状态 MCTS 策略。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -397,13 +397,13 @@
 
 ---
 
-```
+
 [12] DeepRead: Document Structure-Aware Reasoning to Enhance Agentic Search
 作者：Zhanli Li, Huiwen Tian, Lvzhou Luo et al. | 第一单位：中国科学院等
 链接：https://arxiv.org/abs/2602.05014
 
 简单介绍：针对现有 agentic 搜索将长文档视为扁平 chunk 集合、未充分利用文档层级结构和顺序话语结构的问题，提出 DeepRead，通过 LLM-based OCR 将 PDF 转为保留结构的 Markdown，引入坐标式元数据和 Retrieve/ReadSection 工具，实现类似人类的"定位-阅读"行为范式。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -428,13 +428,13 @@
 
 ---
 
-```
+
 [13] ContextBench: A Benchmark for Context Retrieval in Coding Agents
 作者：Han Li, Letian Zhu, Bohan Zhang et al. | 第一单位：未明确
 链接：https://arxiv.org/abs/2602.05892
 
 简单介绍：现有 coding agent 评估主要关注最终任务成功，缺乏对上下文检索过程的洞察。ContextBench 是面向 coding agent 上下文检索的过程导向评估基准，包含 1,136 个 issue-resolution 任务和人工标注的 gold contexts，测量上下文召回率、精确率和效率，揭示 agent scaffolding 在上下文检索中仅带来边际提升（"The Bitter Lesson"）。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -464,13 +464,13 @@
 
 ---
 
-```
+
 [14] LycheeDecode: Accelerating Long-Context LLM Inference via Hybrid-Head Sparse Decoding
 作者：Gang Lin, Dongfang Li, Zhuoen Chen et al. | 第一单位：未明确
 链接：https://arxiv.org/abs/2602.04541
 
 简单介绍：针对长上下文 LLM 推理中 KV cache 快速扩展导致的内存和延迟瓶颈，提出 LycheeDecode，通过细粒度混合头注意力机制和硬件高效的 top-k 选择策略，将注意力头分为检索头和稀疏头，在 128K 上下文长度实现 2.7 倍加速，生成质量匹敌甚至超越全注意力基线。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -496,13 +496,13 @@
 
 ---
 
-```
+
 [15] Bifrost: Steering Strategic Trajectories to Bridge Contextual Gaps for Self-Improving Agents
 作者：Quan M. Tran, Zhuo Huang, Wenbin Zhang et al. | 第一单位：未明确
 链接：https://arxiv.org/abs/2602.05810
 
 简单介绍：针对自改进 agent 在跨任务复用轨迹时的上下文不匹配问题，提出 Bifrost，利用上下文差异精确引导历史轨迹适应目标任务。发现上下文-轨迹相关性（上下文偏移与轨迹偏移高度平行），在表示层面使用 agent hidden states 进行轨迹自适应，无需训练即可实现有效复用。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -528,13 +528,13 @@
 
 ---
 
-```
+
 [16] CL-bench: A Benchmark for Context Learning
 作者：Shihan Dou, Ming Zhang, Zhangyue Yin et al. | 第一单位：复旦大学等
 链接：https://arxiv.org/abs/2602.03587
 
 简单介绍：现有 LMs 主要利用预训练知识进行推理，但现实世界任务更复杂且依赖上下文：模型必须从任务特定上下文中学习并利用预训练之外的新知识。CL-bench 是首个 context learning 基准，包含 500 个复杂上下文、1,899 个任务，要求模型学习新领域知识、规则系统、复杂流程和经验数据导出的规律，揭示前沿模型平均仅解决 17.2% 的任务。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：

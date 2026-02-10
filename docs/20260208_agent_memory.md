@@ -2,13 +2,13 @@
 
 ## 论文列表
 
-```
+
 [1] Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory
 作者：Haozhen Zhang et al. | 单位：信息未明确
 链接：https://arxiv.org/abs/2602.06025
 
 简单介绍：针对 LLM agent 运行时记忆处理问题，提出 BudgetMem 框架，通过查询感知的预算层级路由实现显式性能-成本控制，包含低/中/高三级预算模块。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -27,13 +27,13 @@
 </details>
 ---
 
-```
+
 [2] Shared LoRA Subspaces for almost Strict Continual Learning
 作者：Prakhar Kaushik et al. | 单位：Johns Hopkins University
 链接：https://arxiv.org/abs/2602.06043
 
 简单介绍：提出 Share 方法，通过学习单一共享低秩子空间实现高效持续微调，实现 100 倍参数缩减和 281 倍内存节省。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -52,13 +52,13 @@
 </details>
 ---
 
-```
+
 [3] DyTopo: Dynamic Topology Routing for Multi-Agent Reasoning
 作者：Yuxing Lu et al. | 单位：Southeast University
 链接：https://arxiv.org/abs/2602.06039
 
 简单介绍：提出 DyTopo 框架，通过语义匹配动态重建稀疏有向通信图，实现随迭代问题求解阶段自适应调整的通信拓扑。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -75,13 +75,13 @@
 </details>
 ---
 
-```
+
 [4] V-Retrver: Evidence-Driven Agentic Reasoning for Universal Multimodal Retrieval
 作者：Dongyang Chen et al. | 单位：信息未明确
 链接：https://arxiv.org/abs/2602.06034
 
 简单介绍：提出 V-Retrver 框架，将多模态检索重构为基于视觉检查的 agentic 推理过程，实现假设生成与目标视觉验证的交替。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
@@ -99,13 +99,13 @@
 </details>
 ---
 
-```
+
 [5] PhysicsAgentABM: Physics-Guided Generative Agent-Based Modeling
 作者：Kavana Venkatesh et al. | 单位：University of Virginia
 链接：https://arxiv.org/abs/2602.06030
 
 简单介绍：提出 PhysicsAgentABM，通过行为一致性智能体簇进行推理，结合符号先验、神经动态模型和认知融合，实现可扩展且校准的仿真。
-```
+
 <details><summary>详细总结</summary>
 
 **相关工作**：
