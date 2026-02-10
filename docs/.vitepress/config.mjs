@@ -25,14 +25,6 @@ export default defineConfig({
   // 忽略临时文件
   srcExclude: ['**/.DS_Store'],
   
-  // 开发服务器配置
-  vite: {
-    server: {
-      host: '0.0.0.0',
-      port: 5173
-    }
-  },
-  
   themeConfig: {
     // 顶部导航（动态生成）
     nav,
