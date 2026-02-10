@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 📚 关于本站
-      link: /#关于-paper-digest
+      link: ./#关于-paper-digest
     - theme: alt
       text: 🗓️ 更新频率
-      link: /#更新频率
+      link: ./#更新频率
 
 features:
   - icon: 🤖
